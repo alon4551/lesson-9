@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="exercise">
+        <h1>Exercise 1</h1>
+        <div>
+            <button id="change" onclick="change()">Change Color</button>
+            <button onclick="cancel()">Cancel</button>
+            <button onclick="reset()">Reset </button>
+        </div>
+        <div class="container">
+
+        </div>
+    </div>
+    <hr>
+    <div class="exercise">
+        <h1>Exercise 2</h1>
+        <h2>please set the timer (in seconds)</h2>
+        <div class="watch">
+            <input type="number" id="timer">
+            <button onclick="startTimer()">Start Timer</button>
+            <h3 id="time"></h3>
+        </div>
+    </div>
+    <hr>
+    <div class="exercise">
+        <h1>Exercise 4</h1>
+        <div class = "">
+            <select id="list" onchange="select()">
+                
+            </select>
+        </div>
+        <div class ="profile">
+            <label for="">full name</label>
+            <input type="text" id="name">
+            <label for="">username name</label>
+            <input type="text" id="username">
+            <label for="">email</label>
+            <input type="text" id="email">
+            <label for="">address</label>
+            <input type="text" id="address">
+            <label for="">phone</label>
+            <input type="text" id="phone">
+            <label for="">website</label>
+            <input type="text" id="website">
+            <label for="">company</label>
+            <input type="text" id="company">
+        </div>
+    </div>
+</body>
+<script src="./script.js"></script>
+</html>

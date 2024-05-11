@@ -1,0 +1,44 @@
+.exercise{
+    height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap:5px;
+}
+.watch{
+    font-size: xx-large;
+    text-align: center;
+    align-items: center;
+}
+.container{
+    height: 300px;
+    width: 50%;
+    border: 1px solid black;
+}
+.colord{
+    animation-name: colordContanier;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-play-state: ease-in;
+    background-color: blue;
+}
+.profile{
+    display: flex;
+    flex-direction: column;
+    width:  75%;
+    font-size: large;
+    gap: 5px
+}
+.profile > input{
+    padding: 5px;
+}
+@keyframes colordContanier {
+    from{
+        background-color: white;
+    }
+    to{
+        background-color: blue;
+    }
+}
